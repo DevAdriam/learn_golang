@@ -24,5 +24,21 @@ func main (){
 	
 	fmt.Println(location)
 
+	//Number(ints)
+	var numberOne int = 1
+	var numberTwo int = 2
+	numberThree := 3
+	
+	fmt.Println(numberOne,numberThree,numberTwo)
+
+
+	// bits & memory
+	var numFive int8 = 127  
+	var numSix int16 = 8989
+
+	// unsigned int means(only accept positive int)
+	var numSeven uint8 = 3232
+	fmt.Println(numFive,numSix,numSeven)
+
 }
 
