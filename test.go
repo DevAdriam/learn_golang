@@ -37,8 +37,29 @@ func main (){
 	var numSix int16 = 8989
 
 	// unsigned int means(only accept positive int)
-	var numSeven uint8 = 3232
+	var numSeven uint8 = 127
 	fmt.Println(numFive,numSix,numSeven)
+
+	// floats
+	var numEight float32 = 125.4343
+	var numNine float64 = 439843.2232
+	fmt.Println(numEight,numNine)
+
+
+	userAge := 32
+	userName := "mgmg"
+
+	// Print
+	fmt.Print("hello world\n")
+	fmt.Print("hello golang\n")
+	fmt.Print("hello ",userName,"\n")
+
+	// Print line
+	fmt.Println("my name is",userName,"and my age is",userAge)
+
+	// Printf (formatted string)
+	// %v is known as format specifier
+	fmt.Printf("my name is %v and my age is %v",userName,userAge)
 
 }
 
